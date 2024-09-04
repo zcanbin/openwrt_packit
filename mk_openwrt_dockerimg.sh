@@ -11,7 +11,7 @@
 # build成功后，用 docker images可以看到生成的镜像
 # 并且会打包成本地镜像： ${OUTDIR}/docker-img-openwrt-aarch64-${TAG}.gz (可以用docker loader 命令导入)
 
-IMG_NAME=unifreq/openwrt-aarch64
+IMG_NAME=zcanbin/openwrt-aarch64
 TAG=latest
 if [ ! -z "$1" ];then
     IMG_NAME=$1
